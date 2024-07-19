@@ -20,3 +20,34 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
 }
+
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(86, 86, 86);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
