@@ -55,6 +55,11 @@ section{
     padding-bottom: 10vh;
     padding-left: 30px;
     font-family: var(--fonte3);
+    font-size: 3,5vw;
+}
+
+section > p{
+    padding-bottom: 2em;
 }
 
 section.normal {
@@ -65,14 +70,29 @@ section.normal {
 section.imagem{
     background-color: rgb(51, 51, 51,);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(55, 53, 53, 0.792);
 
 }
 
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.254);
-    width: 400px;
-    
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
 
+section#img01 {
+    background-image:url("../imagens/ladybug-8064737_1280.jpg");
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+section#img02 {
+    background-image: url(https://g3i5r4x7.rocketcdn.me/wp-content/uploads/2019/03/escrita.jpg);
+    background-size: cover;
+    
 }
 
 footer{
