@@ -38,7 +38,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font2);
-    font: size 20vw;;
+    font-size: 4em;
 }
 
 header > p {
@@ -76,12 +76,26 @@ section.normal {
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(46, 45, 45);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(26, 26, 26, 0.741);
+    background-color: rgba(0, 0, 0, 0.509);
+    text-shadow: 2px 2px 0px black;
+}
+
+section#img01 {
+    background-image: url(../imagens/ladybug-8881535_1280.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(../imagens/letter-447577_1280.jpg);
+    background-size: cover;
 }
 
 footer {
