@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>En vanlig dag
+                Jeg våkner av alarmen min klokka 07.00 fra mandag til fredag. Det første jeg gjør så snart jeg har våknet, er å sette på kaffetrakteren. Etterpå tar jeg meg en dusj, kler på meg og fikser håret mitt. Når jeg er ferdig på badet så er kaffen min klar. Jeg nyter en kopp kaffe samtidig som jeg tilbereder frokosten min og matpakken min. Jeg spiser alltid havregryn til frokost på hverdager. Om helgen derimot lager jeg meg en omelett eller arme riddere.
+                
+                Etter at jeg har spist frokost og smurt et par brødskiver til lunsj, drar jeg på jobb. Hvordan jeg velger å komme meg til jobb avhenger av klimaet. Om vinteren tar jeg alltid bussen fordi jeg liker ikke å fryse. Resten av året enten går jeg eller sykler jeg til jobb. Hvis det regner ute foretrekker jeg å sykle.
+                
+                Jeg jobber som renholder på sykehuset. Når jeg kommer på jobb skifter jeg om i garderoben sammen med legene og sykepleierne. Jeg tar deretter heisen opp til min etasje og jeg jobber i 8 timer.</p>
+
+            <p>Årstidene i Norge
+                Det er mye vær i Norge og nordmenn er opptatt av været. De snakker ofte om hvordan været er og skal bli.
+                    
+                Når det er vinter i Norge er det mye snø noen år og lite snø andre år. Noen steder er det ikke snø i det hele tatt. Nord i landet vil det ofte være flere meter med snø! Langs kysten er det som oftest regn på vinteren.
+                    
+                Nordmenn blir glade når våren kommer. Gresset blir grønt, dagene lysere og temperaturen stiger.
+                    
+                Sør i Norge er det finest på sommeren. Da kan det bli 25 grader og man kan bade og sole seg. I nord kan temperaturen også bli fin, men havet er alltid kaldt der.
+                    
+                Om høsten kommer stormen og alle må feste trampoliner så de ikke blåser vekk. Mange i Norge tenker på høsten som koselig og med varm kakao. Uansett årstid går nordmenn på tur.</p>
+
+            <p>Hotellreservasjon
+                Resepsjonist: God formiddag. Du har kommet til Sentrum Hotell. Hvordan kan jeg hjelpe deg?
+                        
+                Hanne Nilsen: Hei,mitt navn er Hanne Nilsen. Jeg ønsker å reservere et rom hos dere neste helg fra fredag til søndag.
+                        
+                Resepsjonist: Så klart. La meg bare sjekke hvilke rom vi har tilgjengelige. Trenger du et enkeltrom eller et dobbeltrom?
+                        
+                Hanne Nilsen: Vi er to personer så vi ønsker et dobbeltrom. Hvis det er mulig så vil vi gjerne reservere et rom med to enkeltsenger”.
+                        
+                Resepsjonist: Ok. Det ser ut til at vi har et par ledige dobbeltrom med to enkeltsenger. Ønsker dere utsikt mot hagen eller mot gaten?
+                        
+                Hanne Nilsen: Utsikt mot hagen takk. Jeg ser på deres nettside at dere har en restaurant. Er frokosten inkludert når vi bestiller rom? Og når er vi nødt å sjekke ut?
+                        
+                Resepsjonist: Ja, frokost er alltid inkludert hos oss. Bare sørg for at dere går ned i frokostsalen mellom klokken 07.00 og 10.00. Siste frist for å sjekke ut hos oss er klokken 12.00. Ønsker du at jeg skal reservere for deg?
+                        
+                Hanne Nilsen: Ja takk, gjerne.
+                        
+                Resepsjonist: Ok, da har jeg reservert et dobbeltrom med to enkeltsenger med utsikt mot hagen fra fredag til søndag neste helg under navnet Hanne Nilsen. Høres dette greit ut?
+                        
+                Hanne Nilsen: Beklager, jeg gav deg feil dato. Det er ikke neste fredag, men to fredager frem i tid. Har dere ledig samme type rom en uke senere?
+                        
+                Resepsjonist: Skal vi se. Ja, det samme rommet er ledig en uke senere. Ønsker du at jeg reserverer dette?
+                        
+                Hanne Nilsen: Ja gjerne. Tusen takk skal du ha. Da er alt i orden?
+                        
+                Resepsjonist: Ja, alt i orden. Bare hyggelig. Vi ser fram til deres opphold her hos oss. På gjensyn.
+                        
+                </p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){ 
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
