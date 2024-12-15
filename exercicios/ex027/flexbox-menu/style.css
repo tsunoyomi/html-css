@@ -27,6 +27,8 @@ header{
 
 header > h1{
     flex: 0 0 200px;
+    text-shadow: 1px 1px 0px black;
+    color: burlywood;
 }
 
 header > nav{
@@ -57,3 +59,9 @@ main{
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(36, 0, 0, 0.767);
 }
+
+@media screen and() {
+
+}
+    
+
