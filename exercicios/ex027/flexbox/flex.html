@@ -10,9 +10,9 @@
         background-color: salmon;
 
         display: flex;
-        flex-flow: row wrap; 
+        flex-flow: row  nowrap; 
         align-items: flex-start;
-        height: 400px;
+        height: 100px;
         /*Propriedade usada para ativar o Flexbox, um laypout que facilita o alinhamento e a distribuição de elementos em contêineres. */
     }
 
@@ -20,21 +20,32 @@
         background-color: lightblue;
         border: 1px solid black;
         text-align: center;
-        padding: 40px;
+
+        
         
         /*Atalho para configurar a capacidade de um item flexível crescer, encolher e ocupar espaço proporcionalmente d um contêiner flexível.*/
     }
+    
+    div#cxA{
+        flex: 1 0 200px;
+    }
+
+    div#cxB{
+        flex: 1 1 150px;
+    }
+
+    div#cxC{
+        flex: 1 0 auto;
+    }
+
+
 </style>
 <body>
     <div class="container">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
-        <div class="item">H</div>
+        <div class="item" id="cxA">A</div>
+        <div class="item" id="cxB">B</div>
+        <div class="item" id="cxC">C</div>
+
     </div>
 </body>
 </html>
